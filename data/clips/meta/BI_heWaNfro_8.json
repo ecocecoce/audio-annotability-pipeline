@@ -1,0 +1,6 @@
+{
+  "sample_id": "BI_heWaNfro_8",
+  "error": "TimeoutError: timed out during opening handshake",
+  "foa_verified": false,
+  "wav_verified": false
+}

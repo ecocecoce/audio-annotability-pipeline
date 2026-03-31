@@ -1,0 +1,61 @@
+{
+  "clip_id": "CFdvuR98sRE_15",
+  "media_check": {
+    "decode_ok": true,
+    "fps": 29.97002997002997,
+    "sample_rate": 48000,
+    "num_channels": 4,
+    "silence_ratio": null,
+    "clipping_ratio": null,
+    "duration": 5.071733333333333,
+    "audio_source": "external_wav",
+    "external_audio_channels": 4,
+    "external_audio_sr": 48000,
+    "has_external_foa": true,
+    "error_msg": null
+  },
+  "audio_screening": {
+    "event_density": 0.6653386454183267,
+    "speech_presence": true,
+    "speech_ratio": 0.98,
+    "bgm_risk": 0.0,
+    "voiceover_risk": 0.0,
+    "source": "external_wav"
+  },
+  "video_screening": {
+    "num_candidate_instances": 5,
+    "track_quality_mean": 0.4149815850421881,
+    "visible_soundable_objects": [
+      "motion_object",
+      "motion_object",
+      "motion_object",
+      "motion_object",
+      "motion_object"
+    ],
+    "motion_score": 0.4149815850421881,
+    "shot_change_count": 0
+  },
+  "av_screening": {
+    "max_soundingness": 1.0,
+    "soundingness_entropy": 0.5,
+    "av_correlation": 1.0
+  },
+  "spatial_screening": {
+    "spatial_validity_score": 0.52,
+    "direction_consistency": 0.4,
+    "has_valid_direction": true,
+    "source": "external_wav"
+  },
+  "routing": {
+    "tier": "high_quality",
+    "reasons": [],
+    "checks_passed": {
+      "audio_event_density": true,
+      "voiceover_risk": true,
+      "visible_motion": true,
+      "shot_changes": true,
+      "av_correlation": true,
+      "spatial_validity": true
+    }
+  }
+}

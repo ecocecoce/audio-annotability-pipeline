@@ -1,0 +1,38 @@
+CONFIG = {
+    'dataset': {
+        'clip_duration': 5.0,
+        'expected_audio_channels': 4,
+        'expected_sample_rate': 48000,
+    },
+    'stage1': {
+        'max_silence_ratio': 0.90,
+        'max_clipping_ratio': 0.05,
+    },
+    'stage2': {
+        'energy_threshold_db': -40,
+        'min_event_duration_ms': 100,
+        'speech_energy_threshold': 0.3,
+    },
+    'stage3': {
+        'min_motion_area': 500,
+        'max_shot_changes': 3,
+    },
+    'stage4': {
+        'av_correlation_threshold': 0.2,
+    },
+    'stage5': {
+        'min_direction_variance': 0.1,
+        'max_direction_variance': 2.0,
+    },
+    'routing': {
+        'high_quality_threshold': {
+            'media_ok': True,
+            'min_audio_event_density': 0.3,
+            'min_visible_motion': 0.3,
+            'max_shot_changes': 3,
+            'min_av_correlation': 0.2,
+            'min_spatial_validity': 0.5,
+            'max_voiceover_risk': 0.5,
+        }
+    }
+}

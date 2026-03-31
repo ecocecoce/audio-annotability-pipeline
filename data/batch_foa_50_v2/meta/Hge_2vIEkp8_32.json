@@ -1,0 +1,54 @@
+{
+  "pipeline_version": 2,
+  "sample_id": "Hge_2vIEkp8_32",
+  "video_id": "Hge_2vIEkp8",
+  "clip_start_sec": 32,
+  "clip_seconds": 5.0,
+  "download_method": "ytdlp",
+  "source_webm_path": "/Users/konoyo/Desktop/CodexWorkspace/Temp/_yt_ambigen_probe/downloads/batch_foa_50_v2/source_webm/Hge_2vIEkp8.webm",
+  "source_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "opus",
+        "codec_type": "audio",
+        "channels": 4,
+        "channel_layout": "ambisonic 1"
+      }
+    ],
+    "format": {
+      "duration": "48.281000"
+    },
+    "stderr": "",
+    "returncode": 0
+  },
+  "source_verified": true,
+  "wav_path": "/Users/konoyo/Desktop/CodexWorkspace/Temp/_yt_ambigen_probe/downloads/batch_foa_50_v2/wav/Hge_2vIEkp8_32.wav",
+  "wav_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "channels": 4,
+        "duration": "5.000000"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    },
+    "stderr": "",
+    "returncode": 0
+  },
+  "wav_verified": true,
+  "wav_size": 1920078,
+  "wav_ffmpeg_returncode": 0,
+  "wav_ffmpeg_stdout": "",
+  "wav_ffmpeg_stderr": "",
+  "clip_aligned_verified": true,
+  "foa_verified": true
+}

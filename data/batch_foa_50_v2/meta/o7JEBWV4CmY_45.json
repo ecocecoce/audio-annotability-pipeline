@@ -1,0 +1,57 @@
+{
+  "pipeline_version": 2,
+  "sample_id": "o7JEBWV4CmY_45",
+  "video_id": "o7JEBWV4CmY",
+  "clip_start_sec": 45,
+  "clip_seconds": 5.0,
+  "download_method": "ytdlp",
+  "source_webm_path": "/Users/konoyo/Desktop/CodexWorkspace/Temp/_yt_ambigen_probe/downloads/batch_foa_50_v2/source_webm/o7JEBWV4CmY.webm",
+  "source_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "opus",
+        "codec_type": "audio",
+        "channels": 4,
+        "channel_layout": "ambisonic 1"
+      }
+    ],
+    "format": {
+      "duration": "78.301000"
+    },
+    "stderr": "",
+    "returncode": 0
+  },
+  "source_verified": true,
+  "ytdlp_returncode": 0,
+  "ytdlp_stdout": "[youtube] Extracting URL: https://www.youtube.com/watch?v=o7JEBWV4CmY\n[youtube] o7JEBWV4CmY: Downloading webpage\n[youtube] o7JEBWV4CmY: Downloading android vr player API JSON\n[youtube] [pot:bgutil:http] Generating a gvs PO Token for web_safari client via bgutil HTTP server\n[youtube] o7JEBWV4CmY: Downloading player 1ebf2aa6-main\n[youtube] [jsc:deno] Solving JS challenges using deno\n[youtube] o7JEBWV4CmY: Downloading m3u8 information\n[info] o7JEBWV4CmY: Downloading 1 format(s): 338\n[download] Destination: /Users/konoyo/Desktop/CodexWorkspace/Temp/_yt_ambigen_probe/downloads/batch_foa_50_v2/source_webm/o7JEBWV4CmY.webm\n[download] Download completed\n",
+  "ytdlp_stderr": "",
+  "wav_path": "/Users/konoyo/Desktop/CodexWorkspace/Temp/_yt_ambigen_probe/downloads/batch_foa_50_v2/wav/o7JEBWV4CmY_45.wav",
+  "wav_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "channels": 4,
+        "duration": "5.000000"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    },
+    "stderr": "",
+    "returncode": 0
+  },
+  "wav_verified": true,
+  "wav_size": 1920078,
+  "wav_ffmpeg_returncode": 0,
+  "wav_ffmpeg_stdout": "",
+  "wav_ffmpeg_stderr": "",
+  "clip_aligned_verified": true,
+  "foa_verified": true
+}

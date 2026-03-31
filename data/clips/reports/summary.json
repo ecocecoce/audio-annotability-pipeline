@@ -1,0 +1,21 @@
+{
+  "csv": "clips.csv",
+  "outdir": ".",
+  "pipeline_version": 2,
+  "clip_seconds": 5.0,
+  "download_method": "auto",
+  "selected_count": 1,
+  "processed_count": 1,
+  "foa_verified_count": 0,
+  "wav_verified_count": 0,
+  "clip_aligned_count": 0,
+  "failed_count": 1,
+  "results": [
+    {
+      "sample_id": "jrvzuQmr5to_5",
+      "error": "RuntimeError: FOA itag 338 not present in adaptiveFormats",
+      "foa_verified": false,
+      "wav_verified": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "clip_id": "CFdvuR98sRE_45_5s",
+  "media_check": {
+    "decode_ok": false,
+    "fps": 29.97002997002997,
+    "sample_rate": 0,
+    "num_channels": 0,
+    "silence_ratio": null,
+    "clipping_ratio": null,
+    "duration": 5.071733333333333,
+    "audio_source": "internal",
+    "external_audio_channels": null,
+    "external_audio_sr": null,
+    "has_external_foa": false,
+    "error_msg": "No external audio and cannot extract internal",
+    "audio_extract_error": "FFmpeg failed: ffmpeg version 7.1-essentials_build"
+  },
+  "routing": {
+    "tier": "rejected",
+    "reasons": [
+      "Media decode failed"
+    ]
+  }
+}
